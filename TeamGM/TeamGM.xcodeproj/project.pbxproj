@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TeamGM/TeamGM-Prefix.pch";
 				INFOPLIST_FILE = "TeamGM/TeamGM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TeamGM/TeamGM-Prefix.pch";
 				INFOPLIST_FILE = "TeamGM/TeamGM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				A6EAC5821A2546A700AA9B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6EAC5831A2546A700AA9B56 /* Build configuration list for PBXNativeTarget "TeamGMTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				A6EAC5851A2546A700AA9B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
