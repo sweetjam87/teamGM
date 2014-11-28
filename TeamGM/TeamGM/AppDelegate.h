@@ -2,14 +2,24 @@
 //  AppDelegate.h
 //  TeamGM
 //
-//  Created by James McPherson on 11/25/14.
-//  Copyright (c) 2014 James McPherson. All rights reserved.
+//  Created by James McPherson on 11/27/14.
+//  Copyright (c) 2014 Gameday Mobile. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+- (void)saveContext;
+- (NSURL *)applicationDocumentsDirectory;
+
+
 @end
+
